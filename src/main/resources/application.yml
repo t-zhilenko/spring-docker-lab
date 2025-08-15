@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-docker-lab
+  profiles:
+    default: dev
+
+management:
+  enpoints:
+    web:
+      exposure:
+        include: health, info, metrics
